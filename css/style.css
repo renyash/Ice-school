@@ -1,0 +1,823 @@
+@font-face{
+  font-family: Futura PT Medium;
+  src: url("../fonts/FUTURAPTMEDIUM.OTF") format("OpenType");
+  font-weight: 400;
+  font-color: #111111;
+}
+
+@font-face{
+  font-family: Futura PT Heavy;
+  src: url("../fonts/FUTURAPTHEAVY.OTF") format("OpenType");
+  font-color: #111111;
+}
+
+@font-face{
+  font-family: Futura PT Demi;
+  src: url("../fonts/FUTURAPTDEMI.OTF") format("OpenType");
+  font-color: #111111;
+}
+
+@font-face{
+  font-family: Futura PT Bold;
+  src: url("../fonts/FUTURAPTBOLD.OTF") format("OpenType");
+  font-color: #111111;
+}
+
+@font-face{
+  font-family: PT Sans;
+  src: url("../fonts/PT_Sans-Web-Regular.ttf") format("OpenType");
+  font-color: #111111;
+}
+
+body{
+  font-family: "Futura PT Medium";
+  font-color: #111111;
+  background-color: #fff; 
+  width: 1300px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+span{
+  color:#74e196;
+}
+
+.promo-pic{
+  width: 1300px;
+}
+
+.services__title,
+.discounts__title,
+.team__title,
+.community__title,
+.mini-community__title{
+  text-align: center;
+ } 
+
+.promo__title{
+  position: absolute;
+  top: 100px;
+  color: white;
+  font-family: "Futura PT Bold";
+  font-size: 50px;
+  text-align: left;
+  padding-left: 60px;
+}
+
+.promo__descr{
+  position: absolute;
+  top: 280px;
+  color: white;
+  font-family: "Futura PT Demi";
+  font-size: 38px;
+  padding-left: 60px;
+}
+
+.page-header__inner{
+  display: flex;
+  flex-direction: row;
+  padding-top: 36px;
+}
+
+.logo{
+ padding-left: 60px;
+}
+
+.main-nav{
+  align-self: center;
+}
+
+.main-nav__item{
+  display: inline-block;
+  margin-right: 48px;
+}
+
+.main-nav__link{
+  text-decoration: none;
+  transition-property: color 0.3s 0s ease;  
+}
+
+.main-nav__link:hover{
+  border-bottom: 4px solid #74e196;
+  padding-bottom: 10px;
+}
+
+.phone{
+  text-decoration: none;
+  color: #111111;
+  font-size: 22px;
+  font-family: "Futura PT Demi";
+  margin: auto;
+}
+
+.btn{
+  text-decoration: none;
+  color: #74e196;
+  border: 2px solid #000;
+  padding: 18px;
+  font-family: "Futura PT Heavy";
+  margin-right: 60px;
+  margin-left: 35px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  transition-property: color 0.3s 0s ease;
+}
+
+.btn:hover{
+  color: white;
+  background-color: #74e196;
+}
+
+.disc-btn{
+  display: inline-block;
+  text-decoration: none;
+  color: #74e196;
+  border: 2px solid #fff;
+  padding: 12px;
+  font-family: "Futura PT Heavy";
+  margin-top: 22px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  transition-property: color 0.3s 0s ease;
+}
+
+.disc-btn:hover{
+  color: white;
+  background-color: #74e196;
+}
+
+.team__btn{
+  position: relative;
+  bottom: 120px;
+  text-decoration: none;
+  color: #74e196;
+  border: 2px solid #000;
+  padding: 12px;
+  font-family: "Futura PT Heavy";
+  text-transform: uppercase;
+  transition: all 0.3s;
+  transition-property: color 0.3s 0s ease;
+}
+
+.team__btn:hover{
+  color: black;
+  background-color: #74e196;
+}
+
+.benefits{
+  text-align: center;
+}
+
+.benefits__inner{
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.benefits__list{
+  margin-top: 40px;
+  margin-bottom: 55px;
+}
+
+.benefits__item{
+  float: left;
+  width: 33.33%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.benefits__item:nth(3n+1){
+  clear: left;
+}
+
+.benefits__item-content{
+  text-align: left;
+}
+
+.benefits__list{
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.benefits__list:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.benefits_icon--letter{
+  background-color: red;
+  width: 60px;
+  height: 80px;
+}
+
+.services__inner h1, p{
+  text-align: center;
+}
+
+.services__content{
+  overflow: hidden;
+  margin-top: 45px;
+  padding-left: 44px;
+  padding-right: 44px;
+}
+
+.services__content .services__content-pic{
+  display: inline-block;
+  float: left;
+  width: 30%;
+  margin: 18px;
+}
+
+.services__content .services__content-info{
+  display: inline-block;
+  float: left;
+  width: 30%;
+  height: 300px;
+  margin: 0px 18px 0px 18px;
+  text-align: left;
+}
+
+.services__content p{
+  display: inline-block;
+  text-align: left;
+}
+
+.services__footer{
+  margin-top: 15px;
+}
+
+.services__footer img{
+  position: relative;
+  left: 255px;
+  vertical-align: middle;
+}
+
+.discounts__inner{
+  background-image: url(../images/discounts.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 0 0 210px rgba(0, 0, 0, 0.43) inset;
+  box-sizing: border-box;
+  padding: 44px;
+  color: #fff; 
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.discounts__item{
+  display: inline-block;
+  width: 30%;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.team__inner{
+  text-align: center;
+}
+
+.team__content{
+  color: #fff;
+  position: relative;
+  bottom: 150px;
+  padding: 0 280px 0 280px;
+  color: #000;
+  text-align: center;
+  font-size: 15px;
+}
+
+.team-pic{
+  height: 600px;
+  width: 1300px;
+  background: linear-gradient(
+  rgba(255, 255, 255, 0),
+  rgba(255, 255, 255, 0.90)
+  ), url(../images/team.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.community__content{
+  padding: 22px 250px 22px 250px;
+  text-align: center;
+}
+
+.community__map{
+  width: 1300px;
+  text-align: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 100px;
+}
+
+.mini-community__inner{
+  text-align: center;
+  margin-bottom: 86px;
+}
+
+.mini-community__title{
+  padding-bottom: 40px;
+}
+
+.mini-community__content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.page-footer__inner{
+  background-image: url(../images/footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 0 0 210px rgba(0, 0, 0, 0.33) inset;
+  box-sizing: border-box;
+  padding-top: 36px;
+  padding-bottom: 120px;
+}
+
+.page-footer__inner .phone span{
+  text-align: left;
+}
+
+.page-footer__content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1300px;
+}
+
+.social-logo{
+  transition: all 0.3s ease;
+}
+
+.social-logo:hover{
+  opacity: 0.5;
+}
+
+.footer-nav{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-nav__item{
+  display: inline-block;
+  margin-right: 48px;
+}
+
+.footer-nav__list{
+  margin-right: 10px;
+}
+
+.footer-nav__link{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #242424;
+  transition: all 0.3s ease;
+}
+
+.footer-nav__link:hover{
+  color: black;
+}
+
+.footer__mail{
+  display: block;
+  color: black;
+  font-size: 20px;
+}
+
+.footer__copyright{
+  padding-left: 56px;
+}
+
+.social-logo{
+  margin-right: 40px;
+}
+.footer__icons{
+  display: inline-block;
+}
+
+.footer__tel{
+  display: inline-block;
+  text-align: right;
+  margin-right: 60px;
+  margin-top: 20px;
+}
+
+.choose-course__title{
+  text-align: center; 
+}
+
+.choose-course__inner{
+  padding: 0 60px 0 60px;
+}
+
+.choose-btn{
+  text-decoration: none;
+  color: #74E196;
+  font-family: "Futura PT Heavy";
+  text-transform: uppercase;
+}
+
+.schedule{
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.schedule th{
+  text-align: left;
+  padding-bottom: 12px;
+}
+
+.schedule td{
+  padding: 12px;
+  margin: 0;
+  text-align: left;
+  border: 2px solid #000;
+}
+
+.the-chosen-one__title{
+  margin: 0;
+}
+
+.the-chosen-one__inner{
+  width: 1180px;
+  border: 2px solid #000;
+  padding: 50px 60px 0px 60px;
+  margin-left: 60px;
+  margin-right: 60px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.the-chosen-one__buy-button{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #74e196;
+  border: 2px solid #000;
+  padding: 12px;
+  font-family: "Futura PT Heavy";
+  transition: all .3s;
+  transition-property: color .3s ease;
+}
+
+.the-chosen-one__buy-button:hover{
+  background-color: #74e196;
+  color: white;
+}
+
+.chosen-mentor-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 2px solid #74e196;
+}
+
+.the-chosen-one__mentor{
+  display: inline-block;
+  position: relative;
+  bottom: 40px;
+  width: 200px;
+  margin-right: 100px;
+}
+
+.the-chosen-one__mentor span{
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  padding: 10px;
+  width: 180px;
+  margin-top: -40px;
+}
+
+.the-chosen-one__mentor-type{
+  display: inline-block;
+  width: 400px;
+  margin-right: 130px;
+  padding-bottom: 60px;
+}
+
+.the-chosen-one__mentor-type p{
+  font-family: "PT Sans";
+  text-align: left;
+}
+
+.the-chosen-one__mentor-price{
+  position: relative;
+  display: inline-block;
+  bottom: 180px;
+  width: 134px;
+}
+
+.the-chosen-one__mentor-price h3{
+  margin-bottom: 25px;
+}
+
+.the-chosen-one__little-nav{
+  text-align: center;
+  vertical-align: middle;
+}
+
+.little-nav__numbers-sp{
+  color: #74e196;
+  position: relative;
+  bottom: 5px;
+  text-decoration: none;
+}
+
+.the-chosen-one__view-more{
+  color: #000;
+  text-decoration: underline;
+  text-decoration-color: #74e196;
+}
+
+.the-chosen-one__little-nav img{
+  width: 20px;
+  height: 20px;
+}
+
+.little-nav__numbers{
+  position: relative;
+  bottom: 5px;
+  text-decoration: none;
+  color: #000;
+}
+
+.getcall__inner{
+  padding: 0 60px 60px 60px;
+  text-align: center;
+}
+
+.getcall-form{
+  width: 550px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.form-item{
+  padding: 24px 0 24px 0;
+  font-size: 20px;
+  font-family: "Futura PT Medium";
+}
+
+.getcall-form label{
+  display: block;
+  text-align: left;
+}
+
+input[type=text]{
+  width: 555px;
+  height: 46px;
+  font-size: 30px;
+  border: 2px solid #000;
+}
+
+input[type=submit]{
+  transition-property: color .3s ease;
+  transition: all .3s;
+}
+
+input[type=submit]:hover{
+  background-color: #74e196;
+  color: white;
+}
+
+#your_message{
+  height: 120px;
+  width: 555px;
+  font-size: 30px;
+  border: 2px solid #000;
+}
+
+.submit-btn{
+  margin-top: 60px;
+  background-color: #fff;
+  text-decoration: none;
+  color: #74e196;
+  border: 2px solid #000;
+  padding: 12px;
+  font-family: "Futura PT Heavy";
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.mentors-intro__inner{
+  width: 1180px;
+  padding: 0 60px 0 60px;
+}
+
+.mentor-search__input{
+  padding-left: 5px;
+  font-family: "PT Sans";
+}
+
+.mentors-search__title{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.mentor-search__form{
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.mentors__link{
+  position: relative;
+  height: 236px;
+}
+
+.mentors__link::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  transition: all .3s;
+}
+
+.mentors__link:hover:before {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.mentors__link--active{
+  position: relative;
+}
+
+.mentors__link--active::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(109, 231, 147, .5);
+}
+
+.mentors-intro__photos{
+  display: flex;
+  flex-direction: row;
+  height: 236px;
+}
+
+.mentors-intro__photos p{
+  position: absolute;
+  margin: 0;
+  top: 175px;
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  width: 90px;
+  text-align: left;
+}
+
+.mentors-info__inner{
+  width: 1040px;
+  margin: 0 auto;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.mentors-info__pic{
+  display: inline-block;
+  width: 270px;
+  height: 270px;
+  margin-bottom: 30px;
+}
+
+.mentors-info__info{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 70px;
+}
+
+.mentors-info__info h2{
+  margin-top: 0;
+}
+
+.mentors-info__type{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.mentors-info__btns{
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 12px;
+  margin-left: 45px;
+}
+
+.flash-pic{
+  width: 15px;
+  height: 15px;
+}
+
+.mentors-info__type th{
+  padding-right: 80px;
+}
+
+.btn-5{
+  display: inline-block;
+  text-decoration: none;
+  border: 2px solid #000;
+  padding: 6px;
+  font-family: "Futura PT Heavy";
+  margin-left: 35px;
+  margin-top: 40px;
+}
+
+.mentors-info__type-title tr{
+  margin-top: 25px;
+}
+.mentors-info__type td{
+  vertical-align: top;
+  padding-top: 20px;
+}
+
+.sport-type{
+  width: 40px;
+  height: 70px;
+}
+
+.like-info{
+  display: inline-block;
+  margin-left: 35px;
+  padding-top: 10px;
+  color: #000;
+}
+
+.btn-sign{
+  text-decoration: none;
+  color: #74e196;
+  border: 2px solid #000;
+  padding: 12px;
+  font-family: "Futura PT Heavy";
+  margin-right: 60px;
+  margin-left: 35px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}
+
+.mentors-info__education{
+  display: inline-block;
+  width: 500px;
+}
+
+.mentors-info__education h3{
+  margin-top: 0;
+}
+
+.mentors__education{
+  display: inline-block;
+  text-align: left;
+}
+
+.video-link{
+  float: right;
+}
+
+.mentors-reviews__inner{
+  background-image: url(../images/review-pic.jpg);
+  background-size: cover;
+  height: 235px;
+  width: 1060px;
+  margin-left: 120px;
+  margin-bottom: 70px;
+}
+
+.mentors-reviews__inner-content{
+  padding: 40px;
+  width: 700px;
+}
+
+.reviews__info{
+  text-align: left;
+  font-size: 15px;
+  line-height: 22pt;
+}
+
+.reviews__name{
+  color: #000;
+  font-size: 20px;
+}
+
+.vklogo{
+  margin-left: 20px;
+  width: 30px;
+}
+
+.mentors-page-footer{
+  padding-top: 90px;
+}
